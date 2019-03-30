@@ -13,5 +13,5 @@ variables:
   imageName: 'your-container-image-name:$(build.buildId)'
 
 steps:
-- script: docker-compose build .
+- script: docker-compose build
   displayName: 'docker build'
